@@ -3,4 +3,24 @@
   <groupId>CalculadoraFXML</groupId>
   <artifactId>dad.javafx.calculadora</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <properties>
+		<maven.compiler.target>14</maven.compiler.target>
+		<maven.compiler.source>14</maven.compiler.source>
+		<exec.mainClass>dad.javafx.calculadora.Main</exec.mainClass>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-controls</artifactId>
+			<version>14.0.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.openjfx</groupId>
+			<artifactId>javafx-fxml</artifactId>
+			<version>14.0.1</version>
+		</dependency>
+	</dependencies>
+  
 </project>
